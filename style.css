@@ -1,0 +1,54 @@
+* {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 19px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+body {
+  background-color: #EC4A5E;
+}
+
+kbd {
+  font-size: 3rem;
+}
+
+.keys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  width: 70vw;
+}
+
+.key {
+  border: 3px solid #1D1E22;
+  transition: all .07s ease;
+  width: calc(70vw / 4);
+  text-align: center;
+  padding: 2rem 0;
+  margin: 5px;
+  background-color: #1D1E22;
+  color: white;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #FFF;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .keys {
+    width: 90vw;
+  }
+
+  .key {
+    width: calc(90vw / 3);
+  }
+}
