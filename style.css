@@ -51,6 +51,6 @@ kbd {
 
   .key {
     width: calc(90vw / 4);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
   }
 }
