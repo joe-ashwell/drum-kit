@@ -35,6 +35,7 @@ kbd {
   margin: 5px;
   background-color: #1D1E22;
   color: white;
+  cursor: pointer;
 }
 
 .playing {
@@ -49,6 +50,7 @@ kbd {
   }
 
   .key {
-    width: calc(90vw / 3);
+    width: calc(90vw / 4);
+    padding: 1rem 0;
   }
 }
